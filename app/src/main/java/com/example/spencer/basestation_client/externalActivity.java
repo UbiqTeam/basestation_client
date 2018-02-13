@@ -14,6 +14,6 @@ public class externalActivity extends AppCompatActivity {
 
         WebView myWebView = (WebView) findViewById(R.id.webview);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("http://72.204.69.115:2345");
+        myWebView.loadUrl("http://72.204.69.115:96");
     }
 }

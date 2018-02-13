@@ -16,6 +16,6 @@ public class internalActivity extends AppCompatActivity {
 
         WebView myWebView = (WebView) findViewById(R.id.webview);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("http://192.168.0.103:2345");
+        myWebView.loadUrl("http://192.168.0.103:96");
     }
 }
